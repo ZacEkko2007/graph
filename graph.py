@@ -5,7 +5,7 @@ sales = [1, 5, 4, 8, 11]
 
 # line graph
 plt.figure(dpi=150) # dpi=x, figsize=(x,y) screen size control
-plt.rc('font', family='Malgun Gothic')
+plt.rc('font', family='Nanum Gothic')
 plt.title("Monthly Sale Quantity")
 plt.plot(month, sales, color = "aqua", label = "SongMJ")
 plt.legend(loc = "upper right") 
@@ -31,9 +31,8 @@ import numpy as np
 data = np.random.randn(1000)
 
 plt.figure(dpi=150)
-plt.rc('font', family = 'Malgun Gothic')
 plt.hist(data ,color = 'aqua' ,edgecolor = 'black', histtype = 'bar', label = 'data', bins = 50) 
-# histtype = 'bar(or barstacked, step, stepfilled)'  bins = x histogram set section
+# histtype = 'bar(or barstacked, step, stepfilled)'  bins = x: set section
 plt.legend(loc = 'upper right')
 plt.show()
 

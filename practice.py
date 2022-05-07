@@ -33,7 +33,7 @@ data = np.random.randn(1000)
 plt.figure(dpi=150)
 plt.rc('font', family = 'Malgun Gothic')
 plt.hist(data ,color = 'aqua' ,edgecolor = 'black', histtype = 'bar', label = 'data', bins = 50) 
-# histtype = 'bar(or barstacked, step, stepfilled)'  bins = x histogram set section
+# histtype = 'bar(or barstacked, step, stepfilled)': set histogarm display type      bins = x histogram set section
 plt.legend(loc = 'upper right')
 plt.show()
 
